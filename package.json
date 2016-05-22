@@ -7,7 +7,9 @@
   "scripts": {
     "test": "mocha --harmony test/test.js"
   },
-  "engines" : { "node" : ">=4" },
+  "engines": {
+    "node": ">=4"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/npbenjohnson/beautilint/nodemodule-lint.git"
@@ -22,6 +24,7 @@
   "dependencies": {
     "eslint": "^2.10.2",
     "glob-all": "^3.0.3",
+    "graceful-fs": "^4.1.4",
     "js-beautify": "^1.6.2",
     "minimist": "^1.2.0",
     "when": "^3.7.7"
