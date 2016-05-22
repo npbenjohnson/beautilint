@@ -8,6 +8,7 @@ cache:
   - node_modules
 deploy:
   provider: npm
+  email: "npbenjohnson@gmail.com"
   api_key: "${NPM_API_KEY}"
   on:
     tags: true
