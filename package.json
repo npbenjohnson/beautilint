@@ -5,7 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "mocha --harmony test/test.js",
+    "test": "mocha --harmony test/test.js"
   },
   "repository": {
     "type": "git",
