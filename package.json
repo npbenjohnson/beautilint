@@ -1,0 +1,29 @@
+{
+  "name": "beautilint",
+  "version": "0.1.0",
+  "description": "CLI js-beautify lack of features with eslint lack of stability to beautilint code",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --harmony test/test.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npbenjohnson/beautilint/nodemodule-lint.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.4.5",
+  },
+  "dependencies": {
+    "eslint": "^2.10.2",
+    "glob-all": "^3.0.3",
+    "js-beautify": "^1.6.2",
+    "minimist": "^1.2.0",
+    "when": "^3.7.7"
+  },
+  "bin": {
+    "beautilint": "index.js"
+  }
+}
